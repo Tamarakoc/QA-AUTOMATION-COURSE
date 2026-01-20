@@ -208,7 +208,7 @@ if (number1 < 0) {
   console.log("Double digit number");
 } else {
   console.log(
-    "Definitely not a negative, single or double digit number, so it is something else"
+    "Definitely not a negative, single or double digit number, so it is something else",
   );
 }
 
@@ -231,3 +231,5 @@ console.log("-----------------------");
 //"Definitely not a negative, single or double digit number, so it is something else"
 // );
 //}
+
+//Test

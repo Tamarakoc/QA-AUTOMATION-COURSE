@@ -97,7 +97,7 @@ if (state || state2) {
   console.log("I live in New York");
 }
 
-console.log("------------");
+console.log("-----CHALLENGE-------");
 
 let username = "Tamara";
 let username1 = 0;

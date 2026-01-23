@@ -59,7 +59,7 @@ console.log("------------");
 
 let numb14 = 20;
 let numb15 = 10;
-let result1 = numb14 != numb15 && numb15 < numb14;
+let result1 = numb14 != numb15 && numb15 < numb14; // Mistake >
 
 console.log(result1);
 

@@ -6,16 +6,11 @@
 
 let username = "Tamara";
 let username1 = 0;
-if (username) {
-  console.log("Welcome back");
-} else {
-  console.log("Please sign up");
-}
 
-console.log("------------");
+if (username && username1) {
+  console.log("Welcome Back");
+} else console.log("Please Sign Up");
 
-let Tamo = "Tamara";
-let Tam = 0;
-
-console.log(Tamo && "Welcome back");
-console.log(Tamo || "Please sign up");
+if (username || username1) {
+  console.log("Welcome Back");
+} else console.log("Please Sign Up");

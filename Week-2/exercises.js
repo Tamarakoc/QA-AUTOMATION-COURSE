@@ -58,3 +58,31 @@ if (isLoggedIn && isAdmin) {
 }
 
 console.log("------------");
+
+let a = 10;
+let b = 5;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a % b);
+
+let hasEmail = true;
+let hasPassword = false;
+
+console.log(hasEmail && hasPassword);
+console.log(hasEmail || hasPassword);
+console.log(!hasPassword);
+
+let hasCar = false;
+let hasBike = true;
+console.log(hasCar || hasBike);
+
+let car = "";
+let defaultName = "Toyota";
+console.log(car || defaultName);
+
+let isOnline = true;
+console.log(!isOnline);
+
+let online = "";
+console.log(!online);

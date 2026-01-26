@@ -1,31 +1,31 @@
-let fruits = ["Apple", "Orange", "Banana", "Kiwi"]; // index - rigis nomeri
+let fruits = ["Apple", "Orange", "Banana", "Kiwi"]; // index - rigis nomeri, element number
 console.log(fruits);
 
 //2. Accessing Array Elements - arrays start from 0
 
-console.log(fruits[0]);
-console.log(fruits[3]);
+console.log(fruits[0]); // brings Apple
+console.log(fruits[3]); // brings  kiwi
 
-//3. Updating array elements
+//3. Updating array elements, we can use [], write index inside and add value
 
 fruits[1] = "Mango";
-console.log(fruits);
+console.log(fruits); // apple, mango, banana, kiwi
 
 fruits[3] = "Strawberry";
-console.log(fruits);
+console.log(fruits); // apple, mango, banana, strawberry
 
 //4. .length - return how many elements inside an array
 console.log(fruits.length); // it's ounting elements only not index, raodenoba listshi
 
 // ------ Methods that retun new array
 
-//5. .concat() - merges arrays into one array
+//5. .concat() - merges arrays into one array, ამატებს ერეიში ელემენტებს
 const fruits2 = ["Apple", "Banana", "Orrange"];
 const moreFruits = ["CHerry", "Grape"];
 const allFruits = fruits2.concat(moreFruits);
 console.log(allFruits);
 
-//6.  .flat() - flattens the arrays converse to regular array
+//6.  .flat() - flattens the arrays converse to regular array // აერთიანებს დაყოფილ ერეის
 
 const nestedNumbers = [[1, 2], [3, 4], [5]];
 const flatNumbers = nestedNumbers.flat();
@@ -121,7 +121,7 @@ const str = "Hello";
 const chars = Array.from(str);
 console.log(chars);
 
-//3. Array.isArray() - checks if a value is an array
+//3.  Array.isArray() - checks if a value is an array
 
 const num = [1, 2, 3, 4, 5];
 console.log(Array.isArray(num));

@@ -28,4 +28,4 @@ if (14 > 5) {
   const myName = "Tamara";
 }
 
-console.log(myName);
+//console.log(myName); -- Does not print error message

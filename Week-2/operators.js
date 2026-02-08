@@ -21,7 +21,7 @@ console.log(2 ** 3); // gadamravlebuli mokled
 
 //6. Modulus (Remainder) operator
 
-console.log(8 % 2);
+console.log(8 % 2); //it checks if number is diviseble if it has remainder
 
 //7. Increment operator
 

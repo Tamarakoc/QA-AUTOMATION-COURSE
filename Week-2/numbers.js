@@ -155,5 +155,19 @@ console.log(Math.random());
 let max = 25;
 min = 3;
 
-console.log(Math.random() * (max - min + 1)) + min;
+console.log(Math.random() * (max - min + 1) + min);
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+// Math.random() → random decimal between 0 and 1
+
+// (max - min + 1) → gives the range size
+
+// 25 - 3 + 1 = 23
+
+// Math.random() * 10 → decimal between 0 and 23
+
+// Math.floor(...) → makes it a whole number (3 to 25)
+
+// + min → shifts it to become 3 to 25
+
+// Final output: random integer from 3 to 25

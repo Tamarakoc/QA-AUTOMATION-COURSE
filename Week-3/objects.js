@@ -70,3 +70,14 @@ const Player = {
 console.log(Object.keys(Player));
 console.log(Object.values(Player));
 console.log(Object.entries(Player));
+
+let myMovie = {
+  title: "godfather",
+  year: 1990,
+  actors: ["brando", "pacino"],
+  movieTitle() {
+    return `The movie name is ${this.title}`;
+  },
+};
+
+console.log(myMovie.movieTitle());
